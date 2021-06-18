@@ -69,3 +69,23 @@ body {
     width: 99%;
     height: 99%;
 }
+
+@media screen and (max-width: 1800px) {
+  .playButton {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  div {
+    left: 35%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    left: 30%;
+    width: 40%;
+  }
+}
